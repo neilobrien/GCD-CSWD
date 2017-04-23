@@ -6,7 +6,7 @@
 !README.md
 
 # Ignore all files named .DS_Store or ending with .log
-**DS_Store
+**.DS_Store
 **.log
 **Icon?
 
