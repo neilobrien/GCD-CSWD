@@ -1,0 +1,40 @@
+a.button {
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50px;
+  width: 100px;
+  display: inline-block;
+  background: url(images/guinness_button.jpg);
+  padding: 20px;
+}
+div.nav {
+  padding-top: 10px;
+  display: block;
+  text-align: center;
+}
+.header {
+  margin: auto;
+  width: 1024px;
+  height: 100%;
+}
+
+div.content {
+  width: 55%;
+  margin: auto;
+  background-color: rgba(255, 240, 160,.7);
+}
+
+body {
+  background-image: url(images/guinness_background.jpg);
+  background-attachment: fixed;
+}
+
+footer {
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}

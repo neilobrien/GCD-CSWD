@@ -1,0 +1,25 @@
+# Blacklist files/folders in same directory as the .gitignore file
+*
+
+# Whitelist some files
+!.gitignore
+!README.md
+
+# Ignore all files named .DS_Store or ending with .log
+**.DS_Store
+**.log
+**Icon?
+
+# Whitelist certain folders
+#Only Include these specific directories and subdirectories and files if you wish:
+
+!assignment_04
+assignment_04/*
+
+!assignment_04/*/
+
+assignment_04/*/*
+
+!assignment_04/*/*.html
+!assignment_04/*/*.css
+!assignment_05/*/*.js
