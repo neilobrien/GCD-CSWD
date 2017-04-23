@@ -6,7 +6,7 @@
 !README.md
 
 # Ignore all files named .DS_Store or ending with .log
-**.DS_Store
+**DS_Store
 **.log
 **Icon?
 
@@ -20,6 +20,8 @@ assignment_04/*
 
 assignment_04/*/*
 
-!assignment_04/*/*.html
-!assignment_04/*/*.css
-!assignment_05/*/*.js
+!assignment_04/MainSite/*.html
+!assignment_04/MainSite/*.css
+!assignment_04/MainSite/*.js
+!assignment_04/images/*
+
