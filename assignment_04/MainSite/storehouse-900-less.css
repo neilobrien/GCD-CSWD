@@ -10,7 +10,7 @@ h2.header2 {
 }
 
 h1.title {
-  font-size: 350%;
+  font-size: xx-large;
   text-align: center;
   color: white;
   font-style: oblique;
@@ -18,7 +18,7 @@ h1.title {
 
 p.review {
   padding: 50px;
-  font-size: 150%;
+  font-size: 100%;
   text-align: left;
   color: grey;
   font-style: oblique;
@@ -39,9 +39,7 @@ div.nav {
   text-align: center;
 }
 .header {
-  margin: auto;
-  width: 1024px;
-  height: 100%;
+  display: none;
 }
 
 div.content {
@@ -52,8 +50,8 @@ div.content {
 }
 
 body {
-  background-image: url(images/guinness_background.jpg);
-  background-attachment: fixed;
+  background-image: none;
+  background-color: black;
 }
 
 iframe {
@@ -71,5 +69,5 @@ text-align: center
 }
 
 p {
-  font-size: 30px;
+  font-size: 15px;
 }

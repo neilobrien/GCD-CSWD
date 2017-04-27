@@ -19,9 +19,10 @@ assignment_04/*
 !assignment_04/*/
 
 assignment_04/*/*
-
+!assignment_04/*/*
 !assignment_04/MainSite/*.html
 !assignment_04/MainSite/*.css
 !assignment_04/MainSite/*.js
-!assignment_04/images/*
+!assignment_04/MainSite/images/*
+!assignment_04/MainSite/gallery_images/*
 
