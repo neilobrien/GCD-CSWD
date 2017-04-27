@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="storehouse.css">
   <link rel="stylesheet" media="screen and (max-width: 900px)" href="storehouse-900-less.css">
-  <script type="text/javascript" src="storehouse.js"></script>
+  <script type="text/javascript" src="validate.js"></script>
   <meta charset="utf-8">
   <title></title>
 </head>
@@ -37,11 +37,11 @@
   <h1 class="title">Ask us anything?</h1>
   <div class="content">
 
-<form action="thankyou.html" method="post" enctype="text/plain">
+<form action="thankyou.html" method="post" enctype="text/plain" onsubmit="return validateAll(this)">
 Name:<br>
 <input type="text" name="name"><br>
 E-mail:<br>
-<input type="text" name="mail"><br>
+<input type="text" name="email"><br>
 Comment:<br>
 <input type="text" name="comment" size="50"><br><br>
 <input type="submit" value="Send">
@@ -59,4 +59,5 @@ Comment:<br>
     Contact: <a href="mailto:bla bla bla">bla bla bla</a><br>
   </footer>
 </body>
+
 </html>
